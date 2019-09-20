@@ -17,11 +17,60 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	public static void printHat() {
+		System.out.println("                 *****  ");
+		System.out.println("                 *****  ");
+		System.out.println("                 *****  ");
+		System.out.println("                 *****  ");
+		System.out.println("                ******* ");
+		
+	}
+	public static void printHead() {
+		System.out.println("                  ( )  ");
+		System.out.println("               (  o-o  )");
+		System.out.println("               (   ^   )");
+		System.out.println("                ( %%% ) ");
+		System.out.println("                  | |");
+	}
+	public static void printTorso() {
+		System.out.println(" O||||||||||||||   *   ||||||||||||||O");
+		System.out.println("               |   *   |");
+		System.out.println("               |   *   |");
+		System.out.println("               |   *   |");
+		System.out.println("               |   *   |");
+		System.out.println("               |   *   |");
+		System.out.println("               ---------");
+	}
+	public static void printLegs() {
+		System.out.println("               |       |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+		System.out.println("               |  | |  |");
+	}
+	public static void printFeet() {
+		System.out.println("             ****** ****** ");
+		System.out.println("            ******* ******* ");
+		
+		
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		System.out.println("This is Spedwick"
+				);
+		printHat();
+		printHead();
+		printTorso();
+		printLegs();
+		printFeet();
+
+
 	}
 }
